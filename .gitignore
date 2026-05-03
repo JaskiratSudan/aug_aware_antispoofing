@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Checkpoints
+checkpoints_stage1/
+checkpoints_stage2/
+*.pt
+*.pth
+
+# Scores / outputs
+scores/
+plots/
+
+# Logs
+logs/
+slurm_logs/
+pooled_training_logs/
+*.log
+
+# Audio / noise data (binary, large)
+bg_noise/
+
+# Embeddings cache
+*.npy
+*.pkl
+
+# Editor / OS
+.DS_Store
+*.swp
